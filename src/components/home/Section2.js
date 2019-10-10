@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import Carousel from 'react-bootstrap/Carousel';
+=======
+>>>>>>> 9bcb82bd9172b5c1c44ca493378990738e65edbc
 
 function Section2() {
     return(
