@@ -4,10 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.10.1",
-<<<<<<< HEAD
     "react-bootstrap": "^1.0.0-beta.14",
-=======
->>>>>>> 9bcb82bd9172b5c1c44ca493378990738e65edbc
     "react-dom": "^16.10.1",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
