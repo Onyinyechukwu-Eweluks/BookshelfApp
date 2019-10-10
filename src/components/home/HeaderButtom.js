@@ -148,8 +148,8 @@ function HeaderButtom () {
                                         <Link to="javascript:void(0)">My-Info <i
                                                 className="fas fa-chevron-down dropdown-arrow"></i></Link>
                                         <ul className="sub-menu">
-                                            <li> <Link to="cart.html">Cart</Link></li>
-                                            <li> <Link to="checkout.html">Checkout</Link></li>
+                                            <li> <Link to="/cart">Cart</Link></li>
+                                            <li> <Link to="/checkout">Checkout</Link></li>
                                             <li> <Link to="compare.html">Compare</Link></li>
                                             <li> <Link to="wishlist.html">Wishlist</Link></li>
                                             <li> <Link to="login-register.html">Login Register</Link></li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Section2() {
     return(
