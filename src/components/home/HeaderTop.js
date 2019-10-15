@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderButtom from './HeaderButtom'
+import { Link } from 'react-router-dom';
 
 function HeaderTop () {
     return(
@@ -9,47 +10,47 @@ function HeaderTop () {
                 <div className="row">
                     <div className="col-lg-4">
                         <ul className="header-top-list">
-                            <li className="dropdown-trigger currency-dropdown"><a href="#">£ GBP </a><i
+                            <li className="dropdown-trigger currency-dropdown"><Link to="#">£ GBP </Link><i
                                     className="fas fa-chevron-down dropdown-arrow"></i>
                                 <ul className="dropdown-box">
-                                    <li><a href="#">€ Euro</a></li>
-                                    <li><a href="#">£ Pound Sterling</a></li>
-                                    <li><a href="#">$ US Dollar</a></li>
+                                    <li><Link to="#">€ Euro</Link></li>
+                                    <li><Link to="#">£ Pound Sterling</Link></li>
+                                    <li><Link to="#">$ US Dollar</Link></li>
                                 </ul>
                             </li>
-                            <li className="dropdown-trigger language-dropdown"><a href="#"><span className="flag-img"><img
-                                            src="image/icon/eng-flag.png" alt=""/></span>en-gb </a><i
+                            <li className="dropdown-trigger language-dropdown"><Link to="#"><span className="flag-img"><img
+                                            src="image/icon/eng-flag.png" alt=""/></span>en-gb </Link><i
                                     className="fas fa-chevron-down dropdown-arrow"></i>
                                 <ul className="dropdown-box">
-                                    <li> <a href="#"> <span className="flag-img"><img src="image/icon/eng-flag.png"
-                                                    alt=""/></span>English</a></li>
-                                    <li> <a href="#"> <span className="flag-img"><img src="image/icon/germany-flag.png"
-                                                    alt=""/></span>Germany</a></li>
+                                    <li> <Link to="#"> <span className="flag-img"><img src="image/icon/eng-flag.png"
+                                                    alt=""/></span>English</Link></li>
+                                    <li> <Link to="#"> <span className="flag-img"><img src="image/icon/germany-flag.png"
+                                                    alt=""/></span>Germany</Link></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <div className="col-lg-8 flex-lg-right">
                         <ul className="header-top-list">
-                            <li><a href="#"><i className="icons-left fas fa-random"></i>My Compare</a>
+                            <li><Link to="#"><i className="icons-left fas fa-random"></i>My Compare</Link>
                             </li>
-                            <li className="dropdown-trigger language-dropdown"><a href="#"><i
+                            <li className="dropdown-trigger language-dropdown"><Link to="#"><i
                                         className="icons-left fas fa-heart"></i>
-                                    wishlist (0)</a>
+                                    wishlist (0)</Link>
                             </li>
-                            <li className="dropdown-trigger language-dropdown"><a href="#"><i
+                            <li className="dropdown-trigger language-dropdown"><Link to="#"><i
                                         className="icons-left fas fa-user"></i>
-                                    My Account</a><i className="fas fa-chevron-down dropdown-arrow"></i>
+                                    My Account</Link><i className="fas fa-chevron-down dropdown-arrow"></i>
                                 <ul className="dropdown-box">
-                                    <li> <a href="#">My Account</a></li>
-                                    <li> <a href="#">Order History</a></li>
-                                    <li> <a href="#">Transactions</a></li>
-                                    <li> <a href="#">Downloads</a></li>
+                                    <li> <Link to="#">My Account</Link></li>
+                                    <li> <Link to="#">Order History</Link></li>
+                                    <li> <Link to="#">Transactions</Link></li>
+                                    <li> <Link to="#">Downloads</Link></li>
                                 </ul>
                             </li>
-                            <li><a href="#"><i className="icons-left fas fa-phone"></i> Contact</a>
+                            <li><Link to="#"><i className="icons-left fas fa-phone"></i> Contact</Link>
                             </li>
-                            <li><a href="#"><i className="icons-left fas fa-share"></i> Checkout</a>
+                            <li><Link to="#"><i className="icons-left fas fa-share"></i> Checkout</Link>
                             </li>
                         </ul>
                     </div>
@@ -60,9 +61,9 @@ function HeaderTop () {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-3">
-                            <a href="index.html" className="site-brand">
+                            <Link to="index.html" className="site-brand">
                                 <img src="image/logo.png" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-lg-5">
                             <div className="header-search-block">
@@ -74,8 +75,8 @@ function HeaderTop () {
                             <div className="main-navigation flex-lg-right">
                                 <div className="cart-widget">
                                     <div className="login-block">
-                                        <a href="login-register.html" className="font-weight-bold">Login</a> <br/>
-                                        <span>or</span><a href="login-register.html">Register</a>
+                                        <Link to="/loginregister" className="font-weight-bold">Login</Link> <br/>
+                                        <span>or</span><Link to="/loginregister">Register</Link>
                                     </div>
                                     <div className="cart-block">
                                         <div className="cart-total">
@@ -93,12 +94,12 @@ function HeaderTop () {
                                         <div className="cart-dropdown-block">
                                             <div className=" single-cart-block ">
                                                 <div className="cart-product">
-                                                    <a href="product-details.html" className="image">
+                                                    <Link to="product-details.html" className="image">
                                                         <img src="image/products/cart-product-1.jpg" alt=""/>
-                                                    </a>
+                                                    </Link>
                                                     <div className="content">
-                                                        <h3 className="title"><a href="product-details.html">Kodak PIXPRO
-                                                                Astro Zoom AZ421 16 MP</a></h3>
+                                                        <h3 className="title"><Link to="product-details.html">Kodak PIXPRO
+                                                                Astro Zoom AZ421 16 MP</Link></h3>
                                                         <p className="price"><span className="qty">1 ×</span> £87.34</p>
                                                         <button className="cross-btn"><i className="fas fa-times"></i></button>
                                                     </div>
@@ -106,10 +107,10 @@ function HeaderTop () {
                                             </div>
                                             <div className=" single-cart-block ">
                                                 <div className="btn-block">
-                                                    <a href="cart.html" className="btn">View Cart <i
-                                                            className="fas fa-chevron-right"></i></a>
-                                                    <a href="checkout.html" className="btn btn--primary">Check Out <i
-                                                            className="fas fa-chevron-right"></i></a>
+                                                    <Link to="cart.html" className="btn">View Cart <i
+                                                            className="fas fa-chevron-right"></i></Link>
+                                                    <Link to="checkout.html" className="btn btn--primary">Check Out <i
+                                                            className="fas fa-chevron-right"></i></Link>
                                                 </div>
                                             </div>
                                         </div>

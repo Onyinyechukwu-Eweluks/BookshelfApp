@@ -2,33 +2,33 @@ import React from 'react';
 import CheckoutForm from './checkout/CheckoutForm';
 import BillingAdd from './checkout/BillingAdd';
 
+
+
 function Checkout() {
     return(
         <div>
-            <section class="breadcrumb-section">
-                <h2 class="sr-only">Site Breadcrumb</h2>
-                <div class="container">
-                    <div class="breadcrumb-contents">
+            <section className="breadcrumb-section">
+                <h2 className="sr-only">Site Breadcrumb</h2>
+                <div className="container">
+                    <div className="breadcrumb-contents">
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">Checkout</li>
+                        <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li className="breadcrumb-item active">Checkout</li>
                         </ol>
                     </nav>
                     </div>
                 </div>
             </section>
 
-            <main id="content" class="page-section inner-page-sec-padding-bottom space-db--20">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="checkout-form">
-                                <div class="row row-40">
-                                  <CheckoutForm />
-                                    <BillingAdd />
-                                </div>
-                            </div>
+            <main id="content" className="page-section inner-page-sec-padding-bottom space-db--20">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            
+                            <CheckoutForm />
+                              <BillingAdd />
+                         
                         </div>
                     </div>
                 </div>

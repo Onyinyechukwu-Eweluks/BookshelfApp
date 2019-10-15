@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HeaderMobile () {
     return(
@@ -8,117 +9,117 @@ function HeaderMobile () {
                 <div className="container">
                     <div className="row align-items-sm-end align-items-center">
                         <div className="col-md-4 col-7">
-                            <a href="index.html" className="site-brand">
+                            <Link to="index.html" className="site-brand">
                                 <img src="image/logo.png" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-md-5 order-3 order-md-2">
                             <nav className="category-nav   ">
                                 <div>
-                                    <a href="javascript:void(0)" className="category-trigger"><i
+                                    <Link to="javascript:void(0)" className="category-trigger"><i
                                             className="fa fa-bars"></i>Browse
-                                        categories</a>
+                                        categories</Link>
                                     <ul className="category-menu">
                                         <li className="cat-item has-children">
-                                            <a href="#">Arts & Photography</a>
+                                            <Link to="#">Arts & Photography</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Bags & Cases</a></li>
-                                                <li><a href="#">Binoculars & Scopes</a></li>
-                                                <li><a href="#">Digital Cameras</a></li>
-                                                <li><a href="#">Film Photography</a></li>
-                                                <li><a href="#">Lighting & Studio</a></li>
+                                                <li><Link to="#">Bags & Cases</Link></li>
+                                                <li><Link to="#">Binoculars & Scopes</Link></li>
+                                                <li><Link to="#">Digital Cameras</Link></li>
+                                                <li><Link to="#">Film Photography</Link></li>
+                                                <li><Link to="#">Lighting & Studio</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item has-children mega-menu"><a href="#">Biographies</a>
+                                        <li className="cat-item has-children mega-menu"><Link to="#">Biographies</Link>
                                             <ul className="sub-menu">
                                                 <li className="single-block">
                                                     <h3 className="title">WHEEL SIMULATORS</h3>
                                                     <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
+                                                        <li><Link to="#">Bags & Cases</Link></li>
+                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
+                                                        <li><Link to="#">Digital Cameras</Link></li>
+                                                        <li><Link to="#">Film Photography</Link></li>
+                                                        <li><Link to="#">Lighting & Studio</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="single-block">
                                                     <h3 className="title">WHEEL SIMULATORS</h3>
                                                     <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
+                                                        <li><Link to="#">Bags & Cases</Link></li>
+                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
+                                                        <li><Link to="#">Digital Cameras</Link></li>
+                                                        <li><Link to="#">Film Photography</Link></li>
+                                                        <li><Link to="#">Lighting & Studio</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="single-block">
                                                     <h3 className="title">WHEEL SIMULATORS</h3>
                                                     <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
+                                                        <li><Link to="#">Bags & Cases</Link></li>
+                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
+                                                        <li><Link to="#">Digital Cameras</Link></li>
+                                                        <li><Link to="#">Film Photography</Link></li>
+                                                        <li><Link to="#">Lighting & Studio</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="single-block">
                                                     <h3 className="title">WHEEL SIMULATORS</h3>
                                                     <ul>
-                                                        <li><a href="#">Bags & Cases</a></li>
-                                                        <li><a href="#">Binoculars & Scopes</a></li>
-                                                        <li><a href="#">Digital Cameras</a></li>
-                                                        <li><a href="#">Film Photography</a></li>
-                                                        <li><a href="#">Lighting & Studio</a></li>
+                                                        <li><Link to="#">Bags & Cases</Link></li>
+                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
+                                                        <li><Link to="#">Digital Cameras</Link></li>
+                                                        <li><Link to="#">Film Photography</Link></li>
+                                                        <li><Link to="#">Lighting & Studio</Link></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item has-children"><a href="#">Business & Money</a>
+                                        <li className="cat-item has-children"><Link to="#">Business & Money</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Brake Tools</a></li>
-                                                <li><a href="#">Driveshafts</a></li>
-                                                <li><a href="#">Emergency Brake</a></li>
-                                                <li><a href="#">Spools</a></li>
+                                                <li><Link to="#">Brake Tools</Link></li>
+                                                <li><Link to="#">Driveshafts</Link></li>
+                                                <li><Link to="#">Emergency Brake</Link></li>
+                                                <li><Link to="#">Spools</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item has-children"><a href="#">Calendars</a>
+                                        <li className="cat-item has-children"><Link to="#">Calendars</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Brake Tools</a></li>
-                                                <li><a href="#">Driveshafts</a></li>
-                                                <li><a href="#">Emergency Brake</a></li>
-                                                <li><a href="#">Spools</a></li>
+                                                <li><Link to="#">Brake Tools</Link></li>
+                                                <li><Link to="#">Driveshafts</Link></li>
+                                                <li><Link to="#">Emergency Brake</Link></li>
+                                                <li><Link to="#">Spools</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item has-children"><a href="#">Children's Books</a>
+                                        <li className="cat-item has-children"><Link to="#">Children's Books</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Brake Tools</a></li>
-                                                <li><a href="#">Driveshafts</a></li>
-                                                <li><a href="#">Emergency Brake</a></li>
-                                                <li><a href="#">Spools</a></li>
+                                                <li><Link to="#">Brake Tools</Link></li>
+                                                <li><Link to="#">Driveshafts</Link></li>
+                                                <li><Link to="#">Emergency Brake</Link></li>
+                                                <li><Link to="#">Spools</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item has-children"><a href="#">Comics</a>
+                                        <li className="cat-item has-children"><Link to="#">Comics</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Brake Tools</a></li>
-                                                <li><a href="#">Driveshafts</a></li>
-                                                <li><a href="#">Emergency Brake</a></li>
-                                                <li><a href="#">Spools</a></li>
+                                                <li><Link to="#">Brake Tools</Link></li>
+                                                <li><Link to="#">Driveshafts</Link></li>
+                                                <li><Link to="#">Emergency Brake</Link></li>
+                                                <li><Link to="#">Spools</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item"><a href="#">Perfomance Filters</a></li>
-                                        <li className="cat-item has-children"><a href="#">Cookbooks</a>
+                                        <li className="cat-item"><Link to="#">Perfomance Filters</Link></li>
+                                        <li className="cat-item has-children"><Link to="#">Cookbooks</Link>
                                             <ul className="sub-menu">
-                                                <li><a href="#">Brake Tools</a></li>
-                                                <li><a href="#">Driveshafts</a></li>
-                                                <li><a href="#">Emergency Brake</a></li>
-                                                <li><a href="#">Spools</a></li>
+                                                <li><Link to="#">Brake Tools</Link></li>
+                                                <li><Link to="#">Driveshafts</Link></li>
+                                                <li><Link to="#">Emergency Brake</Link></li>
+                                                <li><Link to="#">Spools</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="cat-item "><a href="#">Accessories</a></li>
-                                        <li className="cat-item "><a href="#">Education</a></li>
-                                        <li className="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
-                                        <li className="cat-item"><a href="#" className="js-expand-hidden-menu">More
-                                                Categories</a></li>
+                                        <li className="cat-item "><Link to="#">Accessories</Link></li>
+                                        <li className="cat-item "><Link to="#">Education</Link></li>
+                                        <li className="cat-item hidden-menu-item"><Link to="#">Indoor Living</Link></li>
+                                        <li className="cat-item"><Link to="#" className="js-expand-hidden-menu">More
+                                                Categories</Link></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -127,11 +128,11 @@ function HeaderMobile () {
                             <div className="mobile-header-btns header-top-widget">
                                 <ul className="header-links">
                                     <li className="sin-link">
-                                        <a href="cart.html" className="cart-link link-icon"><i className="ion-bag"></i></a>
+                                        <Link to="cart.html" className="cart-link link-icon"><i className="ion-bag"></i></Link>
                                     </li>
                                     <li className="sin-link">
-                                        <a href="javascript:" className="link-icon hamburgur-icon off-canvas-btn"><i
-                                                className="ion-navicon"></i></a>
+                                        <Link to="javascript:" className="link-icon hamburgur-icon off-canvas-btn"><i
+                                                className="ion-navicon"></i></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -164,94 +165,29 @@ function HeaderMobile () {
                         <nav className="off-canvas-nav">
                             <ul className="mobile-menu main-mobile-menu">
                                 <li className="menu-item-has-children">
-                                    <a href="#">Home</a>
+                                    <Link to="/home">Home</Link>
+                                </li>
+                                
+                                <li className="menu-item-has-children">
+                                    <Link to="/product">Products</Link>
+                                    
                                 </li>
                                 <li className="menu-item-has-children">
-                                    <a href="#">Blog</a>
+                                    <Link to="#">My-Info</Link>
                                     <ul className="sub-menu">
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Blog Grid</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="blog.html">Full Widh (Default)</a></li>
-                                                <li><a href="blog-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Blog List</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="blog-list.html">Full Widh (Default)</a></li>
-                                                <li><a href="blog-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="blog-list-right-sidebar.html">Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Blog Details</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="blog-details.html">Image Format (Default)</a></li>
-                                                <li><a href="blog-details-gallery.html">Gallery Format</a></li>
-                                                <li><a href="blog-details-audio.html">Audio Format</a></li>
-                                                <li><a href="blog-details-video.html">Video Format</a></li>
-                                                <li><a href="blog-details-left-sidebar.html">left Sidebar</a></li>
-                                            </ul>
-                                        </li>
+                                        <li> <Link to="cart.html">Cart</Link></li>
+                                        <li> <Link to="checkout.html">Checkout</Link></li>
+                                        <li> <Link to="compare.html">Compare</Link></li>
+                                        <li> <Link to="wishlist.html">Wishlist</Link></li>
+                                        <li> <Link to="login-register.html">Login Register</Link></li>
+                                        <li> <Link to="my-account.html">My Account</Link></li>
                                     </ul>
                                 </li>
                                 <li className="menu-item-has-children">
-                                    <a href="#">Products</a>
-                                    <ul className="sub-menu">
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Shop Grid</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="shop-grid.html">Fullwidth</a></li>
-                                                <li><a href="shop-grid-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Shop List</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="shop-list.html">Fullwidth</a></li>
-                                                <li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
-                                                <li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Product Details 1</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="product-details.html">Product Details Page</a></li>
-                                                <li><a href="product-details-affiliate.html">Product Details
-                                                        Affiliate</a></li>
-                                                <li><a href="product-details-group.html">Product Details Group</a></li>
-                                                <li><a href="product-details-variable.html">Product Details
-                                                        Variables</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#">Product Details 2</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="product-details-left-thumbnail.html">left Thumbnail</a>
-                                                </li>
-                                                <li><a href="product-details-right-thumbnail.html">Right Thumbnail</a>
-                                                </li>
-                                                <li><a href="product-details-left-gallery.html">Left Gallery</a></li>
-                                                <li><a href="product-details-right-gallery.html">Right Gallery</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <Link to="/blog">Blog</Link>
+                                    
                                 </li>
-                                <li className="menu-item-has-children">
-                                    <a href="#">My-Info</a>
-                                    <ul className="sub-menu">
-                                        <li> <a href="cart.html">Cart</a></li>
-                                        <li> <a href="checkout.html">Checkout</a></li>
-                                        <li> <a href="compare.html">Compare</a></li>
-                                        <li> <a href="wishlist.html">Wishlist</a></li>
-                                        <li> <a href="login-register.html">Login Register</a></li>
-                                        <li> <a href="my-account.html">My Account</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </nav>
                         
@@ -260,42 +196,42 @@ function HeaderMobile () {
                     <nav className="off-canvas-nav">
                         <ul className="mobile-menu menu-block-2">
                             <li className="menu-item-has-children">
-                                <a href="#">Currency - USD $ <i className="fas fa-angle-down"></i></a>
+                                <Link to="#">Currency - USD $ <i className="fas fa-angle-down"></i></Link>
                                 <ul className="sub-menu">
-                                    <li> <a href="cart.html">USD $</a></li>
-                                    <li> <a href="checkout.html">EUR €</a></li>
+                                    <li> <Link to="cart.html">USD $</Link></li>
+                                    <li> <Link to="checkout.html">EUR €</Link></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="#">Lang - Eng<i className="fas fa-angle-down"></i></a>
+                                <Link to="#">Lang - Eng<i className="fas fa-angle-down"></i></Link>
                                 <ul className="sub-menu">
                                     <li>Eng</li>
                                     <li>Ban</li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children">
-                                <a href="#">My Account <i className="fas fa-angle-down"></i></a>
+                                <Link to="#">My Account <i className="fas fa-angle-down"></i></Link>
                                 <ul className="sub-menu">
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Order History</a></li>
-                                    <li><a href="#">Transactions</a></li>
-                                    <li><a href="#">Downloads</a></li>
+                                    <li><Link to="#">My Account</Link></li>
+                                    <li><Link to="#">Order History</Link></li>
+                                    <li><Link to="#">Transactions</Link></li>
+                                    <li><Link to="#">Downloads</Link></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
                     <div className="off-canvas-bottom">
                         <div className="contact-list mb--10">
-                            <a href="#" className="sin-contact"><i className="fas fa-mobile-alt"></i>(12345) 78790220</a>
-                            <a href="#" className="sin-contact"><i className="fas fa-envelope"></i>examle@handart.com</a>
+                            <Link to="#" className="sin-contact"><i className="fas fa-mobile-alt"></i>(12345) 78790220</Link>
+                            <Link to="#" className="sin-contact"><i className="fas fa-envelope"></i>examle@handart.com</Link>
                         </div>
                         <div className="off-canvas-social">
-                            <a href="#" className="single-icon"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="single-icon"><i className="fab fa-twitter"></i></a>
-                            <a href="#" className="single-icon"><i className="fas fa-rss"></i></a>
-                            <a href="#" className="single-icon"><i className="fab fa-youtube"></i></a>
-                            <a href="#" className="single-icon"><i className="fab fa-google-plus-g"></i></a>
-                            <a href="#" className="single-icon"><i className="fab fa-instagram"></i></a>
+                            <Link to="#" className="single-icon"><i className="fab fa-facebook-f"></i></Link>
+                            <Link to="#" className="single-icon"><i className="fab fa-twitter"></i></Link>
+                            <Link to="#" className="single-icon"><i className="fas fa-rss"></i></Link>
+                            <Link to="#" className="single-icon"><i className="fab fa-youtube"></i></Link>
+                            <Link to="#" className="single-icon"><i className="fab fa-google-plus-g"></i></Link>
+                            <Link to="#" className="single-icon"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
                 </div>

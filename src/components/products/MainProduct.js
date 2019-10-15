@@ -3,7 +3,6 @@ import React from 'react';
 function MainProduct () {
     return(
         <div>
-<<<<<<< HEAD
               <main className="inner-page-sec-padding-bottom">
                 <div className="container">
                     <div className="row">
@@ -976,8 +975,6 @@ function MainProduct () {
                     </div>
                 </div>
                 </main>
-=======
->>>>>>> 9bcb82bd9172b5c1c44ca493378990738e65edbc
             
         </div>
 
