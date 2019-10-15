@@ -12,12 +12,6 @@ function HeaderButtom () {
                         <div className="col-lg-3">
                             <nav className="category-nav   ">
                             
-                                
-
-                               
-                                
-                                
-                               
                                 <Dropdown>
                                     <Dropdown.Toggle variant="success" id="dropdown-basic" class="category-trigger">Browse categories              
                                     </Dropdown.Toggle>
@@ -99,7 +93,7 @@ function HeaderButtom () {
                                     
 
 
-                                    <li className="menu-item has-children mega-menu">
+                                    <li className="menu-item">
                                         <Link to="/blog">Blog </Link>
                                        
                                     </li>

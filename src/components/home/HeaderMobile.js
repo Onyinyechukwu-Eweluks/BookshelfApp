@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Dropdown from 'react-bootstrap/Dropdown'
+
 
 function HeaderMobile () {
     return(
@@ -14,115 +16,48 @@ function HeaderMobile () {
                             </Link>
                         </div>
                         <div className="col-md-5 order-3 order-md-2">
-                            <nav className="category-nav   ">
-                                <div>
-                                    <Link to="javascript:void(0)" className="category-trigger"><i
-                                            className="fa fa-bars"></i>Browse
-                                        categories</Link>
-                                    <ul className="category-menu">
-                                        <li className="cat-item has-children">
-                                            <Link to="#">Arts & Photography</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Bags & Cases</Link></li>
-                                                <li><Link to="#">Binoculars & Scopes</Link></li>
-                                                <li><Link to="#">Digital Cameras</Link></li>
-                                                <li><Link to="#">Film Photography</Link></li>
-                                                <li><Link to="#">Lighting & Studio</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item has-children mega-menu"><Link to="#">Biographies</Link>
-                                            <ul className="sub-menu">
-                                                <li className="single-block">
-                                                    <h3 className="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><Link to="#">Bags & Cases</Link></li>
-                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
-                                                        <li><Link to="#">Digital Cameras</Link></li>
-                                                        <li><Link to="#">Film Photography</Link></li>
-                                                        <li><Link to="#">Lighting & Studio</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className="single-block">
-                                                    <h3 className="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><Link to="#">Bags & Cases</Link></li>
-                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
-                                                        <li><Link to="#">Digital Cameras</Link></li>
-                                                        <li><Link to="#">Film Photography</Link></li>
-                                                        <li><Link to="#">Lighting & Studio</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className="single-block">
-                                                    <h3 className="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><Link to="#">Bags & Cases</Link></li>
-                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
-                                                        <li><Link to="#">Digital Cameras</Link></li>
-                                                        <li><Link to="#">Film Photography</Link></li>
-                                                        <li><Link to="#">Lighting & Studio</Link></li>
-                                                    </ul>
-                                                </li>
-                                                <li className="single-block">
-                                                    <h3 className="title">WHEEL SIMULATORS</h3>
-                                                    <ul>
-                                                        <li><Link to="#">Bags & Cases</Link></li>
-                                                        <li><Link to="#">Binoculars & Scopes</Link></li>
-                                                        <li><Link to="#">Digital Cameras</Link></li>
-                                                        <li><Link to="#">Film Photography</Link></li>
-                                                        <li><Link to="#">Lighting & Studio</Link></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item has-children"><Link to="#">Business & Money</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Brake Tools</Link></li>
-                                                <li><Link to="#">Driveshafts</Link></li>
-                                                <li><Link to="#">Emergency Brake</Link></li>
-                                                <li><Link to="#">Spools</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item has-children"><Link to="#">Calendars</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Brake Tools</Link></li>
-                                                <li><Link to="#">Driveshafts</Link></li>
-                                                <li><Link to="#">Emergency Brake</Link></li>
-                                                <li><Link to="#">Spools</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item has-children"><Link to="#">Children's Books</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Brake Tools</Link></li>
-                                                <li><Link to="#">Driveshafts</Link></li>
-                                                <li><Link to="#">Emergency Brake</Link></li>
-                                                <li><Link to="#">Spools</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item has-children"><Link to="#">Comics</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Brake Tools</Link></li>
-                                                <li><Link to="#">Driveshafts</Link></li>
-                                                <li><Link to="#">Emergency Brake</Link></li>
-                                                <li><Link to="#">Spools</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item"><Link to="#">Perfomance Filters</Link></li>
-                                        <li className="cat-item has-children"><Link to="#">Cookbooks</Link>
-                                            <ul className="sub-menu">
-                                                <li><Link to="#">Brake Tools</Link></li>
-                                                <li><Link to="#">Driveshafts</Link></li>
-                                                <li><Link to="#">Emergency Brake</Link></li>
-                                                <li><Link to="#">Spools</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li className="cat-item "><Link to="#">Accessories</Link></li>
-                                        <li className="cat-item "><Link to="#">Education</Link></li>
-                                        <li className="cat-item hidden-menu-item"><Link to="#">Indoor Living</Link></li>
-                                        <li className="cat-item"><Link to="#" className="js-expand-hidden-menu">More
-                                                Categories</Link></li>
-                                    </ul>
-                                </div>
-                            </nav>
+                        <nav className="category-nav   ">
+                            
+                            <Dropdown>
+                                <Dropdown.Toggle variant="success" id="dropdown-basic" class="category-trigger">Browse categories              
+                                </Dropdown.Toggle>
+                               
+                                <Dropdown.Menu>
+                                    <Dropdown.Item class="cat-item has-children">
+                                    <Link to="#">Arts & Photography</Link>
+                                     
+                                    
+                                    </Dropdown.Item>
+                                    <Dropdown.Item>
+                                    <Link to="#">Biographies</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item>
+                                    <Link to="#">Business & Money</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item>
+                                    <Link to="#">Calendars</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Children's Books</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Comics</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Perfomance Filters</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Cookbooks</Link>
+                                        
+                                    </Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Accessories</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Education</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="#">Indoor Living</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link to="#" className="js-expand-hidden-menu">More
+                                            Categories</Link></Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        </nav>
                         </div>
                         <div className="col-md-3 col-5  order-md-3 text-right">
                             <div className="mobile-header-btns header-top-widget">

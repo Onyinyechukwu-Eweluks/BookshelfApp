@@ -68,10 +68,7 @@ class App extends Component {
               component= {Blog}
           />
 
-          <Route 
-              path= '/my-account'
-              component= {MyAccount}
-          />
+         
 
           <Route 
               path= '/contact'

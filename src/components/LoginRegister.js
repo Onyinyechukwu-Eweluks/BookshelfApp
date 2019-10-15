@@ -1,6 +1,20 @@
 import React, {Component} from 'react'
 
 class LoginRegister extends Component{
+    state= {
+        email: "",
+        password: "",
+    }
+
+    handleChange(event) {
+        const {name, value} = event.target
+        this.setState({
+            [name]: value
+        })
+    }
+    handleSubmit(e) {
+        e.preventDefault();
+    }
     render() {
         return(
             <div>
@@ -33,18 +47,31 @@ class LoginRegister extends Component{
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                        <form action="https://demo.hasthemes.com/smartbooks-v2/smartbook/">
+                        <form onSubmit= {e => this.handleSubmit(e)}>
                         <div className="login-form">
                             <h4 className="login-title">Returning Customer</h4>
                             <p><span className="font-weight-bold">I am a returning customer</span></p>
                             <div className="row">
                             <div className="col-md-12 col-12 mb--15">
                                 <label for="email">Enter you email address here...</label>
-                                <input className="mb-0 form-control" type="email" id="email" placeholder="Enter you email address here..."/>
+                                <input className="mb-0 form-control" 
+                                    type="email" 
+                                    id="email" 
+                                    placeholder="Enter you email address here..."
+                                    name= "email"
+                                    value= {this.state.email}
+                                    onChange= {e => this.handleChange(e)}
+                                    />
                             </div>
                             <div className="col-12 mb--20">
                                 <label for="password">Password</label>
-                                <input className="mb-0 form-control" type="password" id="password"/>
+                                <input className="mb-0 form-control" 
+                                    type="password" 
+                                    id="password"
+                                    name= "password"
+                                    value= {this.state.password}
+                                    onChange= {e => this.handleChange(e)}
+                                    />
                                 <a href="#" className="forget-pass">Forgotten Password</a>
                             </div>
                             <div className="col-md-12">

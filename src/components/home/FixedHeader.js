@@ -15,13 +15,13 @@ function FixedHeader() {
                         <div className="col-lg-8">
                             <div className="main-navigation flex-lg-right">
                                 <ul className="main-menu menu-right ">
-                                    <li className="menu-item has-children">
+                                    <li className="menu-item ">
                                         <Link to="/home">Home </Link>
                                         
                                     </li>
                                    
 
-                                    <li className="menu-item has-children mega-menu">
+                                    <li className="menu-item ">
                                         <Link to= '/product'>products </Link>
                                         
                                     </li>
@@ -40,7 +40,7 @@ function FixedHeader() {
                                     </li>
                                   
                                   
-                                    <li className="menu-item has-children mega-menu">
+                                    <li className="menu-item ">
                                         <Link to="/blog">Blog </Link>
                                        
                                     </li>
