@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Blog () {
     return(
@@ -9,7 +11,7 @@ function Blog () {
                 <div class="breadcrumb-contents">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><Link to="index.html">Home</Link></li>
                     <li class="breadcrumb-item active">Blog</li>
                     </ol>
                 </nav>
@@ -24,20 +26,20 @@ function Blog () {
                     <div class="blog-card card-style-list">
                         <div class="row">
                         <div class="col-md-5">
-                            <a href="blog-details.html" class="image d-block">
+                            <Link to="blog-details.html" class="image d-block">
                             <img src="image/others/blog-grid-3.jpg" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-md-6">
                             <div class="card-content">
-                            <h3 class="title"><a href="blog-details.html">Use BLOG TITLE To Make Someone Fall In Love</a></h3>
-                            <p class="post-meta"><span>13/08/2017 </span> | <a href="#">Hastech</a></p>
+                            <h3 class="title"><Link to="blog-details.html">Use BLOG TITLE To Make Someone Fall In Love</Link></h3>
+                            <p class="post-meta"><span>13/08/2017 </span> | <Link to="#">Hastech</Link></p>
                             <article>
                                 <h2 class="sr-only">
                                 Blog Article
                                 </h2>
                                 <p>Maria Denardo is the Fashion Director at theFashionSpot. Prior to joining tFS, she worked as...</p>
-                                <a href="blog-details.html" class="blog-link">Read More</a>
+                                <Link to="blog-details.html" class="blog-link">Read More</Link>
                             </article>
                             </div>
                         </div>
@@ -46,20 +48,20 @@ function Blog () {
                     <div class="blog-card card-style-list">
                         <div class="row">
                         <div class="col-md-5">
-                            <a href="blog-details.html" class="image d-block">
+                            <Link to="blog-details.html" class="image d-block">
                             <img src="image/others/blog-grid-4.jpg" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-md-5">
                             <div class="card-content">
-                            <h3 class="title"><a href="blog-details.html">Ho To (Do) BLOG TITLE Without Your Office(House).</a></h3>
-                            <p class="post-meta"><span>28/10/2017 </span> | <a href="#">Hastech</a></p>
+                            <h3 class="title"><Link to="blog-details.html">Ho To (Do) BLOG TITLE Without Your Office(House).</Link></h3>
+                            <p class="post-meta"><span>28/10/2017 </span> | <Link to="#">Hastech</Link></p>
                             <article>
                                 <h2 class="sr-only">
                                 Blog Article
                                 </h2>
                                 <p>Maria Denardo is the Fashion Director at theFashionSpot. Prior to joining tFS, she worked as...</p>
-                                <a href="blog-details.html" class="blog-link">Read More</a>
+                                <Link to="blog-details.html" class="blog-link">Read More</Link>
                             </article>
                             </div>
                         </div>
@@ -68,20 +70,20 @@ function Blog () {
                     <div class="blog-card card-style-list">
                         <div class="row">
                         <div class="col-md-5">
-                            <a href="blog-details.html" class="image d-block">
+                            <Link to="blog-details.html" class="image d-block">
                             <img src="image/others/blog-grid-1.jpg" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-md-5">
                             <div class="card-content">
-                            <h3 class="title"><a href="blog-details.html">How to Grow Epiphytic Tropical Plants</a></h3>
-                            <p class="post-meta"><span>30/10/2017 </span> | <a href="#">Hastech</a></p>
+                            <h3 class="title"><Link to="blog-details.html">How to Grow Epiphytic Tropical Plants</Link></h3>
+                            <p class="post-meta"><span>30/10/2017 </span> | <Link to="#">Hastech</Link></p>
                             <article>
                                 <h2 class="sr-only">
                                 Blog Article
                                 </h2>
                                 <p>Maria Denardo is the Fashion Director at theFashionSpot. Prior to joining tFS, she worked as...</p>
-                                <a href="blog-details.html" class="blog-link">Read More</a>
+                                <Link to="blog-details.html" class="blog-link">Read More</Link>
                             </article>
                             </div>
                         </div>
@@ -90,20 +92,20 @@ function Blog () {
                     <div class="blog-card card-style-list">
                         <div class="row">
                         <div class="col-md-5">
-                            <a href="blog-details.html" class="image d-block">
+                            <Link to="blog-details.html" class="image d-block">
                             <img src="image/others/blog-grid-2.jpg" alt=""/>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-md-5">
                             <div class="card-content">
-                            <h3 class="title"><a href="blog-details.html">Want A Thriving Business? Focus On BLOG TITLE!</a></h3>
-                            <p class="post-meta"><span>22/01/2017 </span> | <a href="#">Hastech</a></p>
+                            <h3 class="title"><Link to="blog-details.html">Want A Thriving Business? Focus On BLOG TITLE!</Link></h3>
+                            <p class="post-meta"><span>22/01/2017 </span> | <Link to="#">Hastech</Link></p>
                             <article>
                                 <h2 class="sr-only">
                                 Blog Article
                                 </h2>
                                 <p>Maria Denardo is the Fashion Director at theFashionSpot. Prior to joining tFS, she worked as...</p>
-                                <a href="blog-details.html" class="blog-link">Read More</a>
+                                <Link to="blog-details.html" class="blog-link">Read More</Link>
                             </article>
                             </div>
                         </div>
@@ -123,49 +125,49 @@ function Blog () {
                     <div class="single-block">
                         <h2 class="sidebar-title mb--30">BLOG ARCHIVES</h2>
                         <ul class="sidebar-list mb--30">
-                        <li><a href="#"> March 2015 (1)</a></li>
-                        <li><a href="#">December 2014 (3)</a></li>
-                        <li> <a href="#">November 2014 (4)</a></li>
-                        <li><a href="#">September 2014 (1)</a></li>
-                        <li><a href="#">August 2014 (1)</a></li>
+                        <li><Link to="#"> March 2015 (1)</Link></li>
+                        <li><Link to="#">December 2014 (3)</Link></li>
+                        <li> <Link to="#">November 2014 (4)</Link></li>
+                        <li><Link to="#">September 2014 (1)</Link></li>
+                        <li><Link to="#">August 2014 (1)</Link></li>
                         </ul>
                     </div>
                     <div class="single-block ">
                         <h2 class="sidebar-title mb--30">RECENT POSTS</h2>
                         <ul class="sidebar-list">
-                        <li><a href="#"> Blog image post</a></li>
-                        <li><a href="#">Post with Gallery</a></li>
-                        <li> <a href="#">Post with Audio</a></li>
-                        <li><a href="#">Post with Video</a></li>
-                        <li><a href="#">Maecenas ultricies</a></li>
+                        <li><Link to="#"> Blog image post</Link></li>
+                        <li><Link to="#">Post with Gallery</Link></li>
+                        <li> <Link to="#">Post with Audio</Link></li>
+                        <li><Link to="#">Post with Video</Link></li>
+                        <li><Link to="#">Maecenas ultricies</Link></li>
                         </ul>
                     </div>
                     <div class="single-block ">
                         <h2 class="sidebar-title mb--30">Tags</h2>
                         <ul class="sidebar-tag-list">
-                        <li><a href="#"> Chilled</a></li>
-                        <li><a href="#">Dark</a></li>
-                        <li> <a href="#">Euro</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Food</a></li>
-                        <li><a href="#">Hardware</a></li>
-                        <li><a href="#">Hat</a></li>
-                        <li><a href="#">Hipster</a></li>
-                        <li><a href="#">Holidays</a></li>
-                        <li><a href="#">Light</a></li>
-                        <li><a href="#">Mac</a></li>
-                        <li><a href="#">Place</a></li>
-                        <li><a href="#">T-Shirt</a></li>
-                        <li><a href="#">Travel</a></li>
-                        <li><a href="#">Video-2</a></li>
-                        <li><a href="#">White</a></li>
+                        <li><Link to="#"> Chilled</Link></li>
+                        <li><Link to="#">Dark</Link></li>
+                        <li> <Link to="#">Euro</Link></li>
+                        <li><Link to="#">Fashion</Link></li>
+                        <li><Link to="#">Food</Link></li>
+                        <li><Link to="#">Hardware</Link></li>
+                        <li><Link to="#">Hat</Link></li>
+                        <li><Link to="#">Hipster</Link></li>
+                        <li><Link to="#">Holidays</Link></li>
+                        <li><Link to="#">Light</Link></li>
+                        <li><Link to="#">Mac</Link></li>
+                        <li><Link to="#">Place</Link></li>
+                        <li><Link to="#">T-Shirt</Link></li>
+                        <li><Link to="#">Travel</Link></li>
+                        <li><Link to="#">Video-2</Link></li>
+                        <li><Link to="#">White</Link></li>
                         </ul>
                     </div>
                    
                     <div class="single-block">
-                        <a href="#" class="promo-image sidebar">
+                        <Link to="#" class="promo-image sidebar">
                         <img src="image/others/home-side-promo.jpg" alt=""/>
-                        </a>
+                        </Link>
                     </div>
                     </div>
                 </div>

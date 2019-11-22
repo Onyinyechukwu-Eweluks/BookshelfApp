@@ -3,7 +3,7 @@ import HeaderTop from './components/home/HeaderTop';
 import HeaderMobile from './components/home/HeaderMobile';
 import FixedHeader from './components/home/FixedHeader';
 import FixedFooter from './components/home/FixedFooter';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 //Pages
 import Home from './components/Home';
@@ -16,6 +16,8 @@ import MyAccount from './components/my-info/MyAccount';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import LoginRegister from './components/LoginRegister';
+import Register from './components/Register';
+
 
 
 class App extends Component {
@@ -78,6 +80,11 @@ class App extends Component {
           <Route 
               path= '/loginregister'
               component= {LoginRegister}
+          />
+
+          <Route 
+              path= '/register'
+              component= {Register}
           />
 
           <FixedFooter />

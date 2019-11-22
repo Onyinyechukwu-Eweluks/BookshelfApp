@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Dropdown from 'react-bootstrap/Dropdown'
+import { Dropdown, Nav } from 'react-bootstrap'
 
 
 function HeaderMobile () {
@@ -63,10 +63,10 @@ function HeaderMobile () {
                             <div className="mobile-header-btns header-top-widget">
                                 <ul className="header-links">
                                     <li className="sin-link">
-                                        <Link to="cart.html" className="cart-link link-icon"><i className="ion-bag"></i></Link>
+                                        <Link to="/cart" className="cart-link link-icon"><i className="ion-bag"></i></Link>
                                     </li>
                                     <li className="sin-link">
-                                        <Link to="javascript:" className="link-icon hamburgur-icon off-canvas-btn"><i
+                                        <Link to="#" className="link-icon hamburgur-icon off-canvas-btn"><i
                                                 className="ion-navicon"></i></Link>
                                     </li>
                                 </ul>
@@ -96,35 +96,33 @@ function HeaderMobile () {
 
 
                     <div className="mobile-navigation">
+                        <Nav defaultActiveKey="/" as="ul" className="off-canvas-nav flex-column mobile-menu main-mobile-menu">
+                            <Nav.Item as="li" className="menu-item-has-children">
+                                <Link to="/">Home</Link>
+                            </Nav.Item>
+                            <Nav.Item as="li" className="menu-item-has-children">
+                                <Link to="/product">Products</Link>
+                            </Nav.Item>
+                            <Nav.Item as="li" className="menu-item-has-children">
+                                <Link to="#">My-Info</Link>
+                                        <ul className="sub-menu">
+                                            <li> <Link to="/cart">Cart</Link></li>
+                                            <li> <Link to="/checkout">Checkout</Link></li>
+                                            <li> <Link to="/compare">Compare</Link></li>
+                                            <li> <Link to="/wishlist">Wishlist</Link></li>
+                                            <li> <Link to="/loginregister">Login/Register</Link></li>
+                                            <li> <Link to="/my-account">My Account</Link></li>
+                                        </ul>
+                            </Nav.Item>
+                            <Nav.Item as="li" className="menu-item-has-children">
+                                <Link to="/blog">Blog</Link>
+                            </Nav.Item>
+                            <Nav.Item as="li" className="menu-item-has-children">
+                                <Link to="/contact">Contact</Link>
+                            </Nav.Item>
+                        </Nav>
                        
-                        <nav className="off-canvas-nav">
-                            <ul className="mobile-menu main-mobile-menu">
-                                <li className="menu-item-has-children">
-                                    <Link to="/home">Home</Link>
-                                </li>
-                                
-                                <li className="menu-item-has-children">
-                                    <Link to="/product">Products</Link>
-                                    
-                                </li>
-                                <li className="menu-item-has-children">
-                                    <Link to="#">My-Info</Link>
-                                    <ul className="sub-menu">
-                                        <li> <Link to="cart.html">Cart</Link></li>
-                                        <li> <Link to="checkout.html">Checkout</Link></li>
-                                        <li> <Link to="compare.html">Compare</Link></li>
-                                        <li> <Link to="wishlist.html">Wishlist</Link></li>
-                                        <li> <Link to="login-register.html">Login Register</Link></li>
-                                        <li> <Link to="my-account.html">My Account</Link></li>
-                                    </ul>
-                                </li>
-                                <li className="menu-item-has-children">
-                                    <Link to="/blog">Blog</Link>
-                                    
-                                </li>
-                                <li><Link to="/contact">Contact</Link></li>
-                            </ul>
-                        </nav>
+                        
                         
                     </div>
                     

@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom';
+
 
 class LoginRegister extends Component{
     state= {
@@ -24,7 +26,7 @@ class LoginRegister extends Component{
                     <div className="breadcrumb-contents">
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li className="breadcrumb-item"><Link to="index.html">Home</Link></li>
                         <li className="breadcrumb-item active">Login</li>
                         </ol>
                     </nav>
@@ -43,14 +45,14 @@ class LoginRegister extends Component{
                         <p> By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the
                             orders
                             you have previously made.</p>
-                        <a href="#" className="btn btn-outlined   mr-3">Continue</a>
+                        <Link to="/register" className="btn btn-outlined   mr-3">Continue</Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                         <form onSubmit= {e => this.handleSubmit(e)}>
                         <div className="login-form">
                             <h4 className="login-title">Returning Customer</h4>
-                            <p><span className="font-weight-bold">I am a returning customer</span></p>
+                            <p><span className="font-weight-bold">I am Linkreturning customer</span></p>
                             <div className="row">
                             <div className="col-md-12 col-12 mb--15">
                                 <label for="email">Enter you email address here...</label>
@@ -72,10 +74,10 @@ class LoginRegister extends Component{
                                     value= {this.state.password}
                                     onChange= {e => this.handleChange(e)}
                                     />
-                                <a href="#" className="forget-pass">Forgotten Password</a>
+                                <Link to="#" className="forget-pass">Forgotten Password</Link>
                             </div>
                             <div className="col-md-12">
-                                <a href="#" className="btn btn-outlined">Login</a>
+                                <Link to="#" className="btn btn-outlined">Login</Link>
                             </div>
                             </div>
                         </div>

@@ -107,9 +107,9 @@ function HeaderTop () {
                                             </div>
                                             <div className=" single-cart-block ">
                                                 <div className="btn-block">
-                                                    <Link to="cart.html" className="btn">View Cart <i
+                                                    <Link to="/cart" className="btn">View Cart <i
                                                             className="fas fa-chevron-right"></i></Link>
-                                                    <Link to="checkout.html" className="btn btn--primary">Check Out <i
+                                                    <Link to="/checkout" className="btn btn--primary">Check Out <i
                                                             className="fas fa-chevron-right"></i></Link>
                                                 </div>
                                             </div>

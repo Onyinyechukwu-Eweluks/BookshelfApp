@@ -16,7 +16,7 @@ function FixedHeader() {
                             <div className="main-navigation flex-lg-right">
                                 <ul className="main-menu menu-right ">
                                     <li className="menu-item ">
-                                        <Link to="/home">Home </Link>
+                                        <Link to="/">Home </Link>
                                         
                                     </li>
                                    
